@@ -1,0 +1,38 @@
+@import '@color/colors.scss';
+
+.entry {
+  width: 100%;
+  margin-right: 14px;
+
+  &__descr {
+    color: $color-red;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.888889px;
+    text-transform: uppercase;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+
+  &__input {
+    color: $color-white;
+    max-height: 57px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    background: rgba(50, 50, 50, 0.8);
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin-right: 14px;
+    padding: 18px;
+    
+    &:focus {
+      color: $color-white;
+      opacity: 1;
+    }
+  }
+}

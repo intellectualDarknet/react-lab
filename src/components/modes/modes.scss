@@ -1,0 +1,52 @@
+@import '@color/colors.scss';
+
+.modes {
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+  }
+
+  &__type {
+    font-weight: 500;
+    padding: 0 10px;
+    color: $color-white;
+    opacity: 0.6;
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+
+    &_active {
+      opacity: 1;
+      color: red;
+    }
+  }
+
+  &__sort {
+    color: $color-white;
+    opacity: 0.6;
+
+    &__active {
+      opacity: 1;
+    }
+  }
+
+  &__select {
+    background: #232323;
+    border: 0px;
+    color: white;
+  }
+
+  &__sort-by {
+    width: 80px;
+  }
+
+  &__sort-n-date {
+    display: flex;
+  }
+}

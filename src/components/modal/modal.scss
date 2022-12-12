@@ -1,0 +1,30 @@
+.modal {
+  position: fixed;
+  z-index: 6;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blur {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: normal;
+  backdrop-filter: blur(12.2323px);
+  background:   #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(35, 35, 35, 0.918051);
+  mix-blend-mode: normal;
+  opacity: 0.89;
+  backdrop-filter: blur(12.2323px);
+}

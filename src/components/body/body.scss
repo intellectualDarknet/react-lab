@@ -1,0 +1,31 @@
+@import '@color/colors.scss';
+
+.body {
+  background-color: $color-black;
+  padding: 0 20px;
+  color: $color-white;
+
+
+
+  &__underline {
+    background-color: #080707 ;
+    min-height: 1px;
+  }
+
+  &__number {
+    font-weight: 700;
+  }
+
+  &__found {
+    padding: 26px 0;
+    font-weight: 600;
+  }
+
+  &__movies {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+
